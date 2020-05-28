@@ -1,0 +1,547 @@
+.container {
+    width: 100%;
+    background: url(../img/bg-header.jpg) no-repeat; 
+    background-size: cover;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 73.96%;
+    margin: 0 auto;
+}
+
+.header__burger-button {
+    padding-top: 3px;
+    cursor: pointer;
+}
+
+.header__right {
+    display: flex;
+    padding-top: 26px;
+}
+
+.header__logo {
+    padding-left: 80.05px;
+}
+
+.header__contacts {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__contacts-email {
+    padding-right: 141px;
+}
+
+.header__contacts-email .write-us {
+    padding: 23px 0 6px;
+}
+
+.header__contacts-text {
+    font-family: Montserrat, Verdana, sans-serif;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: -0.5px;
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+
+.header__contacts-phone {
+    padding-top: 18px;
+}
+
+.header__contacts-phone .call-us {
+    background: url(../img/phone.svg) no-repeat;
+    background-position-x: 35px;
+    background-position-y: 1px;
+    padding-bottom: 7px;
+    text-align: end;
+}
+
+.header__contacts-link {
+    background-image: url(../img/mail.svg);
+    background-repeat: no-repeat;
+    padding-left: 19px;
+    background-position-y: 5px;
+    font-family: Montserrat, Verdana, sans-serif;
+    font-size: 14px;
+    line-height: 12px;
+    text-align: right;
+    letter-spacing: -0.5px;
+    color: #FEE040;
+}
+
+.header__contacts-link:hover {
+    color: #000;
+}
+
+.header__contacts-number {
+    font-family: Montserrat, Verdana, sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    color: #ffffff;
+}
+
+.content-container {
+    width: 61.45%;
+    margin: 0 auto;
+    display: flex;
+    padding: 128px 0 63px 0;
+}
+
+.content__information {
+    max-width: 580px;
+}
+
+.content__information h1 {
+    font-family: Questrial, Verdana, sans-serif;
+    font-size: 42px;
+    line-height: 51px;
+    letter-spacing: -0.5px;
+    color: #FFFFFF;
+}
+
+.content__information p {
+    padding: 38px 0 0 0;
+    font-family: Montserrat, Verdana, sans-serif;
+    font-size: 20px;
+    line-height: 34px;
+    color: #FFFFFF;
+    opacity: 0.7;
+}
+
+.our-advantage__container {
+    display: flex;
+    width: 73.96%;
+    margin: 0 auto;
+    padding-bottom: 60px;
+}
+
+.our-advantage__number {
+    display: flex;
+    align-items: flex-end;
+    font-family: Montserrat, Verdana, sans-serif;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: -0.5px;
+    color: #FFFFFF;
+}
+
+.our-advantage__number .number {
+    width: 49.11px;
+    height: 46.96px;
+    padding-right: 31.03px;
+}
+
+.our-advantage__number-text {
+    width: 180px;
+    font-family: Montserrat, Verdana, sans-serif;;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: -0.5px;
+    color: #FFFFFF;
+}
+
+.commercial__proposal {
+    max-width: 340px;
+    padding-top: 12px;
+}
+
+.commercial__proposal p {
+    padding-top: 40px;
+    font-family: Montserrat, Verdana, sans-serif;
+    font-size: 15px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 68px;
+}
+
+.video-container__circle {
+    position: absolute;
+    width: 220px;
+    height: 220px;
+    margin-left: 180px;
+    bottom: 0;
+}
+
+.video-container__image {
+    position: absolute;
+    bottom: 40px;
+    left: 220px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.video-container__polygon {
+    position: absolute;
+    left: 290px;
+    bottom: 100px;
+    cursor: pointer;
+}
+
+.button {
+    padding: 29px 58px 26px 57px;
+    background: #FEE040;
+    border-radius: 2px;
+    border: none;
+    cursor: pointer;
+}
+
+.fa-download {
+    padding-right: 12px;
+}
+
+.button:hover {
+    background: #7c99bb;
+
+}
+
+.why-we-wrapper {
+    display: flex;
+    max-width: 1020px;
+    margin: 0 auto;
+}
+
+.why-we-container__text {
+    max-width: 460px;
+} 
+
+.why-we-container .left {
+    padding: 100px 58.29px 41px 0;
+}
+
+.why-we-container .right {
+    padding: 136px 0 89px 58.29px;
+}
+
+.why-we-container__text ul {
+    padding: 24px 0 135px 0;
+}
+
+.why-we-container__text-title {
+    font-family: Questrial, Verdana, sans-serif;
+    font-size: 32px;
+    line-height: 42px;
+    letter-spacing: -0.5px;
+    color: #151515;
+    font-weight: bold;
+}
+
+.why-we-container__text-team {
+    font-family: Montserrat, Verdana, sans-serid;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: -0.5px;
+    color: #707070;
+    opacity: 0.7;
+    padding-top: 50px;
+}
+
+.tv-image {
+    padding-top: 56.25px;
+    max-width: 300px;
+    height: 294.89px;
+}
+
+.why-we-container__text-advantage {
+    font-family: Montserrat, Verdana, sans-serif;
+    font-size: 24px;
+    line-height: 34px;
+    letter-spacing: -0.5px;
+    color: #151515;
+    font-weight: bolder;
+}
+
+.text-advantage__item {
+    background: url(../img/icon.svg) no-repeat;
+    padding: 0 0 19px 50px;
+    font-family: Montserrat, Verdana, sans-serif;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -0.5px;
+    color: #333333;
+    opacity: 0.7;
+}
+
+.services-container {
+    background-image: url(../img/bg-services.jpg);
+    padding: 100px 0 100px 0;
+}
+
+.services-wrapper {
+    max-width: 1020px;
+    margin: 0 auto;
+}
+
+.services-container__title {
+    text-align: center;
+}
+
+.services-container__title h6 {
+    text-transform: uppercase;
+    font-family: Bebas Neue, Verdana, sans-serif;
+    font-size: 20px;
+    line-height: 16px;
+    letter-spacing: 20px;
+    color: #FEE040;
+    padding-bottom: 20px;
+}
+
+.services-container__title p {
+    padding-bottom: 49px;
+    font-family: Questrial, Verdana, sans-serif;
+    font-size: 32px;
+    line-height: 42px;
+    letter-spacing: -0.5px;
+    color: #FFFFFF;
+}
+
+.services__card {
+    display: flex;
+}
+
+.services__card-content {
+    width: 400px;
+    padding-right: 80px;
+}
+
+.services__image {
+    max-width: 100%;
+}
+
+.shadow {
+    background: #000000;
+    opacity: 0.3;
+    filter: blur(50px);
+    border-radius: 3px;
+}
+
+.services__card-content h5 {
+    font-family: Montserrat, Verdana, sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -0.5px;
+    color: #FFFFFF;
+    padding: 20px 0 20px 0;
+}
+
+.services__card-content p {
+    margin-bottom: 29px;
+    font-family: Montserrat, Verdana, sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: -0.5px;
+    color: #FFFFFF;
+    opacity: 0.7;
+}
+
+.services__card-content a {
+    background: url(../img/arrow.svg) 100% 50% no-repeat;
+    font-family: Bebas Neue;
+    font-size: 20px;
+    line-height: 16px;
+    letter-spacing: 7px;
+    color: #FEE040; 
+    text-transform: uppercase;
+    padding-right: 34.91px;
+}
+
+.steps-container .main-title {
+    text-transform: uppercase;
+    padding: 104px 0 36px 0;
+    color: #2F80ED;
+    font-family: Bebas Neue, Nevada, sans-serif;
+    font-size: 80px;
+    line-height: 64px;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+.steps-container .main-title__text {
+    padding-bottom: 100px;
+    margin: 0 auto;
+    font-family: Questrial, Verdana, sans-serif;
+    font-size: 20px;
+    line-height: 28px;
+    color: #505050;
+    width: 503px;
+    text-align: center;
+}
+
+.steps-container__one {
+    display: flex;
+}
+
+.steps-container__one h6 {
+    font-family: Montserrat, Verdana, sans-serif;
+    font-size: 24px;
+    line-height: 34px;
+    letter-spacing: -0.5px;
+    color: #151515;
+}
+
+.steps-one__content {
+    background-color: #F5F5F5;
+    width: 960px;
+    padding: 80px 0 0 70px;
+}
+
+.steps-one__image img{
+    width: 100%;
+    height: 441px;
+}
+
+.steps-one-title__wrapper {
+    max-width: 460px;
+    padding-bottom: 32px;
+}
+
+.steps-one-title__wrapper .steps {
+    margin: 5px 20px 0 0;
+    font-family: Montserrat, Verdana, sans-serif;
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #151515;
+    background: #FEE040;
+    float: left;
+}
+
+.steps-one-title__wrapper .title {
+    font-family: Montserrat, Verdana, sans-serif;
+    font-size: 24px;
+    line-height: 34px;
+    letter-spacing: -0.5px;
+    color: #151515;
+    padding-bottom: 18px;
+}
+
+.steps-one-title__wrapper .text {
+    font-family: Montserrat, Verdana, sans-serif;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -0.5px;
+    color: #333333;
+    opacity: 0.7;
+}
+
+.steps-one__quote-container {
+   display: flex;
+}
+
+.steps-one__quote-text {
+    font-family: Montserrat, Verdana, sans-serif;;;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.5px;
+    color: #505050;
+    opacity: 0.7;
+    width: 501px;
+    padding-bottom: 21px;
+    font-style: italic;
+}
+
+.steps-one__quote-author {
+    font-family: Montserrat, Verdana, sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: -0.5px;
+    color: #151515;
+    opacity: 0.7;
+    font-weight: bold;
+}
+
+.steps-one__quote-author span {
+    text-transform: uppercase;
+}
+
+.steps-one__quote-image {
+    margin-right: 30px;
+    border-radius: 50%;
+    border: solid 7px #FFFFFF;
+    box-shadow: 0px 15px 40px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width: 1200px) {
+
+    .content__information h1 {
+        font-size: 34px;
+    }
+
+    .video-container {
+        display: none;
+    }
+
+    .content-container {
+        width: 74%;
+    }
+
+    .commercial__proposal {
+        padding-left: 83px;
+    }
+
+    .our-advantage__container {
+        justify-content: space-between;
+    }
+
+    .why-we-container {
+        height: 595px;
+    }
+
+    .why-we-container .right {
+        padding-bottom: 0;
+    }
+
+    .steps-container .main-title {
+        font-size: 60px;
+        padding: 70px 0 30px 0
+    }
+
+    .steps-container .main-title__text {
+        padding-bottom: 70px;
+        width: 100%;
+    }
+
+    .steps-container__one {
+        display: block;
+    }
+
+    .steps-one__content {
+        background-color: #FFFFFF;
+        padding: 80px 0 80px 95px;
+    }
+
+    .steps-one-title__wrapper {
+        max-width: 100%;
+    }
+
+    .steps-one-title__wrapper .title {
+        text-align: center;
+    }
+
+    .steps-one__quote-text {
+        width: 100%;
+    }
+    
+}
+
+@media screen and (max-width: 980px) {
+    
+}
+
+@media screen and (max-width: 768px) {
+    
+}
+
+@media screen and (max-width: 480px) {
+    
+}
+
+
+
