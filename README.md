@@ -1,2 +1,2 @@
 # engineeringDiagnostic
-This is a webpage built in HTML, CSS. (in progress)
+This is a webpage built in HTML, CSS
